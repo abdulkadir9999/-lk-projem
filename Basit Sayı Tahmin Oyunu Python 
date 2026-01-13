@@ -6,7 +6,7 @@ sayi = random.randint(1, 20)
 hak = 5
 
 while True:
-	tahmin = int(input(f"1 ile 20 arasında bir sayı gir şu kadar hakkın var "))
+	tahmin = int(input("1 ile 20 arasında bir sayı gir "))
 	hak > 0
 	hak -= 1
 	if tahmin == sayi:
