@@ -1,0 +1,21 @@
+import random
+
+print("tahmin oyununa hoş geldin")				
+				
+sayi = random.randint(1, 20)
+hak = 5
+
+while True:
+	tahmin = int(input(f"1 ile 20 arasında bir sayı gir şu kadar hakkın var "))
+	hak > 0
+	hak -= 1
+	if tahmin == sayi:
+		print("doğru")
+		break
+	elif hak == 0:
+		print("bilemedin sayı:", sayi)
+		break
+	elif sayi > tahmin:
+		print("daha büyük bir sayı")
+	else:
+		print("daha küçük bir sayı")
