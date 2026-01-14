@@ -1,0 +1,29 @@
+print("Python temel kod sözlüğüne hoş geldin")
+
+while True:
+	soru = input("Python hakkında sormak istediğin kodu söyle: ").lower( )
+	if soru == "print":
+		print("Print yazdır demektir.Ekrana birşey gösterir")
+	elif soru == "input":
+		print("İnput girdi demektir.Kullanıcıdan veri alır")
+	elif soru == "if":
+		print("İf eğer demektir.Şart koyar")
+	elif soru == "elif":
+		print("Elif yoksa eğer demektir.Ek şart koyar")
+	elif soru == "else":
+		print("Else değilse demektir.Şart sağlanmazsa çalışır")
+	elif soru == "for":
+		print("For için demektir.Belirli sayıda tekrar eder")
+	elif soru == "while":
+		print("While iken demektir.Şart doğru olduğu sürece tekrar eder")
+	elif soru == "break":
+		print("Break durdur demektir.Döngüyü bitirir")
+	elif soru == "continue":
+		print("Continue devam et demektir.Döngünün başına döner")
+	elif soru == "pass":
+		print("Pass geç demektir.Hiçbir şey yapmaz")
+	elif soru == "çıkış":
+		print("güle güle")
+		break
+	else:
+		print("Lütfen temel bir kod girin")
