@@ -13,7 +13,7 @@ def böl(a, b):
 while True:
 	x = int(input("bir sayı gir "))
 	y = int(input("bir sayı daha gir "))
-	sonuc = input("bu sayılarla ne yapmamı istersin ")
+	sonuc = input("bu sayılarla ne yapmamı istersin ").lower( )
 	if sonuc == "topla":
 		print(("sonuç:"), (topla(x, y)))
 	elif sonuc == "çıkar":
