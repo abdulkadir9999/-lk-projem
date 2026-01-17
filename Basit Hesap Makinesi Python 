@@ -1,0 +1,27 @@
+print("basit hesap makinesine hoş geldin")
+
+def topla(a, b):
+	return(a + b)
+def çıkar(a, b):
+	return(a - b)
+def çarp(a, b):
+	return(a * b)
+def böl(a, b):
+    if b == 0:
+        return "0'a bölünemez"
+    return (a / b)
+while True:
+	x = int(input("bir sayı gir "))
+	y = int(input("bir sayı daha gir "))
+	sonuc = input("bu sayılarla ne yapmamı istersin ")
+	if sonuc == "topla":
+		print(("sonuç:"), (topla(x, y)))
+	elif sonuc == "çıkar":
+		print(("sonuç:"), (çıkar(x, y)))
+	elif sonuc == "çarp":
+		print(("sonuç:"), (çarp(x, y)))
+	elif sonuc == "böl":
+		print(("sonuç:"), (böl(x, y)))
+	else:
+		print("ne dediğinizi anlamadım")
+		continue
